@@ -27,7 +27,7 @@ public class UserServiceTest {
         User result = userService.getUserById(userId);
 
         // Vérifiez que l'utilisateur retourné correspond à l'utilisateur fictif
-        //Assertions.assertTrue(result.isPresent());
+        Assertions.assertTrue(result.isPresent());
         Assertions.assertEquals(mockUser, result);
     }
 }

@@ -10,4 +10,7 @@ public class User {
         this.name = name;
         this.email = email;
     }
+    public Boolean isPresent(){
+        return true;
+    }
 }
