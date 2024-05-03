@@ -7,6 +7,12 @@
     <groupId>org.example</groupId>
     <artifactId>assuranceTP03-Part01</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>Exercice02</module>
+        <module>Exercice01</module>
+        <module>Exercice03</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
